@@ -39,11 +39,16 @@
 
 
 
+
+
 function numb(A, B, C) {
     let D = Math.pow(B,2) - 4 * A * C;
     if (D > 0) {
         alert("2 ta yechimg ega")
     }else if(D === 0){
         alert("1 yechimga ega")
+    }else{
+        alert("qiymat 0")
     }
 }
+numb(A, B, C)
