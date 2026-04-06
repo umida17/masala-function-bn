@@ -38,7 +38,9 @@
 
 
 
-
+let A = prompt("A sonini kiriting");
+let B = prompt("B sonini kiriting");
+let C = prompt("C sonini kiriting");
 
 
 function numb(A, B, C) {
