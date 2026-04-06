@@ -20,3 +20,7 @@
 //     console.log("o'rta arifmetika", orta, "geometrik", geom);
 // }
 // mean(a,b)
+
+
+
+
