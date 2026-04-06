@@ -23,4 +23,15 @@
 
 
 
+// let n = prompt("n sonini kiriting");
 
+// function number(n) {
+//     if (n < 0) {
+//         alert ("noldan kichik")
+//     }else if (n > 0){
+//         alert("noldan katta")
+//     }else{
+//         alert ("nolga teng")
+//     }
+// }
+// number(n)
