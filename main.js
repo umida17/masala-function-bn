@@ -66,3 +66,8 @@
 
 // console.log("Doira yuzasi:", area.toFixed(2));
 
+
+
+
+
+
