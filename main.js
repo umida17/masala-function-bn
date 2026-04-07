@@ -88,5 +88,8 @@
 
 
 
+let K = prompt("K sonini kiriting")
 
-
+function isEven(K) {
+    
+}
