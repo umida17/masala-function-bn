@@ -1,12 +1,17 @@
-.container{
+#container{
     max-width: 1200px;
     margin:  0 auto;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.cards{
+.card{
     width: 300px;
     height: 340px;
     background: mediumaquamarine;
     border: 10px solid lightslategray;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }

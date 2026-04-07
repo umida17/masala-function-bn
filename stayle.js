@@ -92,7 +92,7 @@ const renderCards = (data) => {
     const result = data.map((el) => `
         <div class = "card" key ={el.id} >
             <h1>${el.name}</h1>
-            <img src="https://picsum.photos/id/${el.id}/200/200" alt="">
+            <img src="https://picsum.photos/id/${el.id}/120/120" alt="">
             <p>${el.age}</p>
             <p>${el.email}</p>
             <p>${el.job}</p>
