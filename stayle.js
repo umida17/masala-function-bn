@@ -6,6 +6,9 @@ let cards = [
 ]
 const renderCards = (data)=>{
     const cards = DataTransfer.map((el)=>`
-    
+     <div key = {el.id} >
+     <h1>${el.title}</h1>
+     <p></p>
+     </div>
 `)
 }
