@@ -83,6 +83,5 @@ function sumRange(A, B) {
     }
 }
 
-// Natijani alert bilan chiqarish
-alert("Natija: " + sumRange(a, b));
+ alert("Natija: " + sumRange(a, b));
 
