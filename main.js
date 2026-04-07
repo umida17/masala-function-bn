@@ -91,5 +91,9 @@
 let K = prompt("K sonini kiriting")
 
 function isEven(K) {
-    
+    if (K % 2 === 0) {
+        alert("juft son")
+    }else{
+        alert("toq son")
+    }
 }
