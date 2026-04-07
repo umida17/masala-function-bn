@@ -57,7 +57,12 @@
 
 
 
-function  areaCircle(R) {
-    
-}
+// function areaCircle(R) {
+//     return Math.PI * R * R; 
+// }
+
+// let radius = 5;
+// let area = areaCircle(radius);
+
+// console.log("Doira yuzasi:", area.toFixed(2));
 
