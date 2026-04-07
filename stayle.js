@@ -91,16 +91,19 @@ let data = [
 const renderCards = (data) => {
     const result = data.map((el) => `
         <div class = "card" key ={el.id} >
-            <h1>${el.title}</h1>
+            <h1>${el.name}</h1>
             <img src="https://picsum.photos/id/${el.id}/200/200" alt="">
-            <p>${el.text}</p>
+            <p>${el.age}</p>
+            <p>${el.email}</p>
+            <p>${el.job}</p>
+            <p>${el.city}</p>
         </div>
     `).join("");
 
     container.innerHTML = result;
 };
 
-renderCards(cards);
+renderCards(data);
 
 
 
