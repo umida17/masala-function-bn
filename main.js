@@ -129,14 +129,14 @@
 
 
 
-function sortABC(a, b, c) {
-    let arr = [a, b, c];
-    arr.sort((x, y) => x - y);  
+// function sortABC(a, b, c) {
+//     let arr = [a, b, c];
+//     arr.sort((x, y) => x - y);  
 
-    return `Kichik: ${arr[0]}, O‘rta: ${arr[1]}, Katta: ${arr[2]}`;
-}
+//     return `Kichik: ${arr[0]}, O‘rta: ${arr[1]}, Katta: ${arr[2]}`;
+// }
 
-console.log("sortABC(3, 1, 2) =>", sortABC(3, 1, 2));
-console.log("sortABC(10, 5, 7) =>", sortABC(10, 5, 7));
+// console.log("sortABC(3, 1, 2) =>", sortABC(3, 1, 2));
+// console.log("sortABC(10, 5, 7) =>", sortABC(10, 5, 7));
 
  
