@@ -158,19 +158,19 @@
 
 
 
-function isPrime(N) {
-    if (N <= 1) return false;
+// function isPrime(N) {
+//     if (N <= 1) return false;
 
-    for (let i = 2; i < N; i++) {
-        if (N % i === 0) {
-            return false;
-        }
-    }
-    return true;
-}
+//     for (let i = 2; i < N; i++) {
+//         if (N % i === 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
  
-console.log("isPrime(7) =>", isPrime(7));  
-console.log("isPrime(10) =>", isPrime(10));  
+// console.log("isPrime(7) =>", isPrime(7));  
+// console.log("isPrime(10) =>", isPrime(10));  
 
  
