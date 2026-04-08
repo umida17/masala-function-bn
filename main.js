@@ -120,6 +120,6 @@ function calc(A, B, S) {
     }
 }
 
-// Misollar:
+ 
 console.log(calc(10, 5, "+"));  
  
