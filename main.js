@@ -103,4 +103,23 @@
 
 
 
+function calc(A, B, S) {
+    if (S === "+") {
+        return A + B;
+    } else if (S === "-") {
+        return A - B;
+    } else if (S === "*") {
+        return A * B;
+    } else if (S === "/") {
+        if (B === 0) {
+            return "0 ga bo‘lish mumkin emas"; 
+        }
+        return A / B;
+    } else {
+        return 0;  
+    }
+}
 
+// Misollar:
+console.log(calc(10, 5, "+"));  
+ 
