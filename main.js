@@ -155,4 +155,9 @@
 // console.log("isPowerN(9, 3) =>", isPowerN(9, 3));    
 // console.log("isPowerN(10, 2) =>", isPowerN(10, 2));  
 
+
+
+
+
+
  
