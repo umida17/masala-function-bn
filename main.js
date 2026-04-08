@@ -112,14 +112,15 @@ function calc(A, B, S) {
         return A * B;
     } else if (S === "/") {
         if (B === 0) {
-            return "0 ga bo‘lish mumkin emas"; 
+            return 0;
         }
         return A / B;
     } else {
-        return 0;  
+        return 0;
     }
 }
 
  
-console.log(calc(10, 5, "+"));  
+console.log("calc(10, 15, '*') =>", calc(10, 15, "*"));  
+console.log("calc(7, 8, '+') =>", calc(7, 8, "+"));      
  
