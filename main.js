@@ -142,17 +142,17 @@
 
 
 
-function isPowerN(K, N) {
-    while (K > 1) {
-        if (K % N !== 0) return false;
-        K = K / N;
-    }
-    return true;
-}
+// function isPowerN(K, N) {
+//     while (K > 1) {
+//         if (K % N !== 0) return false;
+//         K = K / N;
+//     }
+//     return true;
+// }
 
  
-console.log("isPowerN(8, 2) =>", isPowerN(8, 2));    
-console.log("isPowerN(9, 3) =>", isPowerN(9, 3));    
-console.log("isPowerN(10, 2) =>", isPowerN(10, 2));  
+// console.log("isPowerN(8, 2) =>", isPowerN(8, 2));    
+// console.log("isPowerN(9, 3) =>", isPowerN(9, 3));    
+// console.log("isPowerN(10, 2) =>", isPowerN(10, 2));  
 
  
