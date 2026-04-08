@@ -150,9 +150,9 @@ function isPowerN(K, N) {
     return true;
 }
 
-// Misollar:
-console.log("isPowerN(8, 2) =>", isPowerN(8, 2));   // true
-console.log("isPowerN(9, 3) =>", isPowerN(9, 3));   // true
-console.log("isPowerN(10, 2) =>", isPowerN(10, 2)); // false
+ 
+console.log("isPowerN(8, 2) =>", isPowerN(8, 2));    
+console.log("isPowerN(9, 3) =>", isPowerN(9, 3));    
+console.log("isPowerN(10, 2) =>", isPowerN(10, 2));  
 
  
