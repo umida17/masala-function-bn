@@ -169,8 +169,8 @@ function isPrime(N) {
     return true;
 }
 
-// Misollar:
-console.log("isPrime(7) =>", isPrime(7));   // true
-console.log("isPrime(10) =>", isPrime(10)); // false
+ 
+console.log("isPrime(7) =>", isPrime(7));  
+console.log("isPrime(10) =>", isPrime(10));  
 
  
