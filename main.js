@@ -68,22 +68,22 @@
 
 
 
-let a = +prompt("a soni");
-let b = +prompt("b soni");
+// let a = +prompt("a soni");
+// let b = +prompt("b soni");
 
-function sumRange(A, B) {
-    if (A > B) {
-        return 0;  
-    } else {
-        let sum = 0;
-        for (let i = A; i <= B; i++) {
-            sum += i; 
-        }
-        return sum;
-    }
-}
+// function sumRange(A, B) {
+//     if (A > B) {
+//         return 0;  
+//     } else {
+//         let sum = 0;
+//         for (let i = A; i <= B; i++) {
+//             sum += i; 
+//         }
+//         return sum;
+//     }
+// }
 
- alert("Natija: " + sumRange(a, b));
+//  alert("Natija: " + sumRange(a, b));
 
 
 
@@ -98,3 +98,5 @@ function sumRange(A, B) {
 //     }
 // }
 // isEven(K) 
+
+
