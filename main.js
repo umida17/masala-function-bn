@@ -173,4 +173,9 @@
 // console.log("isPrime(7) =>", isPrime(7));  
 // console.log("isPrime(10) =>", isPrime(10));  
 
+
+
+
+
+
  
