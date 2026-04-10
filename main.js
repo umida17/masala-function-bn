@@ -226,7 +226,6 @@
 // }
 
 // console.log(digitNth(105782, 5)); 
-// console.log(digitNth(1057, 5));  
 
 
 
@@ -244,7 +243,6 @@
 
 
 // console.log(inverseNumber(12345)); 
-// console.log(inverseNumber(1057));  
 
 
 
@@ -265,3 +263,14 @@
 
 
 
+function factorial(N) {
+    if (N < 0) return 1;
+
+    let r = 1;
+    for (let i = 1; i <= N; i++) r *= i;
+
+    return r;
+}
+
+let N = Number(prompt("N ni kiriting:"));
+console.log(factorial(N));
