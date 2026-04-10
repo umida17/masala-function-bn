@@ -227,3 +227,6 @@
 
 // console.log(digitNth(105782, 5)); 
 // console.log(digitNth(1057, 5));  
+
+
+
