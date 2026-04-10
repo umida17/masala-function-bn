@@ -230,18 +230,18 @@
 
 
 
-function inverseNumber(N) {
-    let result = 0;
+// function inverseNumber(N) {
+//     let result = 0;
 
-    while (N > 0) {
-        let digit = N % 10;              
-        result = result * 10 + digit;   
-        N = Math.floor(N / 10);          
-    }
+//     while (N > 0) {
+//         let digit = N % 10;              
+//         result = result * 10 + digit;   
+//         N = Math.floor(N / 10);          
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
 
-console.log(inverseNumber(12345)); 
-console.log(inverseNumber(1057));  
+// console.log(inverseNumber(12345)); 
+// console.log(inverseNumber(1057));  
