@@ -245,3 +245,7 @@
 
 // console.log(inverseNumber(12345)); 
 // console.log(inverseNumber(1057));  
+
+
+
+
