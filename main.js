@@ -210,7 +210,6 @@ function digitNth(K, N) {
     let count = 0;
     let temp = K;
 
-    // Raqamlar sonini topamiz
     while (temp > 0) {
         count++;
         temp = Math.floor(temp / 10);
@@ -219,7 +218,6 @@ function digitNth(K, N) {
     if (N > count) {
         return -1;
     } else {
-        // Chapdan N-raqamni topamiz
         for (let i = 0; i < count - N; i++) {
             K = Math.floor(K / 10);
         }
@@ -227,6 +225,5 @@ function digitNth(K, N) {
     }
 }
 
-// Test
-console.log(digitNth(105782, 5)); // 8
-console.log(digitNth(1057, 5));   // -1
+console.log(digitNth(105782, 5)); 
+console.log(digitNth(1057, 5));  
