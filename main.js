@@ -261,6 +261,4 @@ function inverseNumber(N) {
 function isPalindrom(N) {
     return N === inverseNumber(N);
 }
-
-// Test
-console.log(isPalindrom(1678761)); // true
+console.log(isPalindrom(1678761));  
