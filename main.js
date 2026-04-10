@@ -263,6 +263,8 @@
 
 
 
+let N = +prompt("N ni kiriting:");
+
 function factorial(N) {
     if (N < 0) return 1;
 
@@ -272,5 +274,4 @@ function factorial(N) {
     return r;
 }
 
-let N = Number(prompt("N ni kiriting:"));
 console.log(factorial(N));
