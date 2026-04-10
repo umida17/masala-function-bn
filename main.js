@@ -263,15 +263,15 @@
 
 
 
-let N = +prompt("N ni kiriting:");
+// let N = +prompt("N ni kiriting:");
 
-function factorial(N) {
-    if (N < 0) return 1;
+// function factorial(N) {
+//     if (N < 0) return 1;
 
-    let r = 1;
-    for (let i = 1; i <= N; i++) r *= i;
+//     let r = 1;
+//     for (let i = 1; i <= N; i++) r *= i;
 
-    return r;
-}
+//     return r;
+// }
 
-console.log(factorial(N));
+// console.log(factorial(N));
