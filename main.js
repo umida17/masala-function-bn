@@ -201,7 +201,6 @@ function numberOfPrime(N) {
     return count;
 }
 
-// Misol:
 console.log(numberOfPrime(10));
 
  
