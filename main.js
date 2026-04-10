@@ -249,3 +249,18 @@
 
 
 
+function inverseNumber(N) {
+    let r = 0;
+    while (N > 0) {
+        r = r * 10 + (N % 10);
+        N = Math.floor(N / 10);
+    }
+    return r;
+}
+
+function isPalindrom(N) {
+    return N === inverseNumber(N);
+}
+
+// Test
+console.log(isPalindrom(1678761)); // true
