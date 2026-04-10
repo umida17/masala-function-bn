@@ -206,24 +206,24 @@
  
 
 
-function digitNth(K, N) {
-    let count = 0;
-    let temp = K;
+// function digitNth(K, N) {
+//     let count = 0;
+//     let temp = K;
 
-    while (temp > 0) {
-        count++;
-        temp = Math.floor(temp / 10);
-    }
+//     while (temp > 0) {
+//         count++;
+//         temp = Math.floor(temp / 10);
+//     }
 
-    if (N > count) {
-        return -1;
-    } else {
-        for (let i = 0; i < count - N; i++) {
-            K = Math.floor(K / 10);
-        }
-        return K % 10;
-    }
-}
+//     if (N > count) {
+//         return -1;
+//     } else {
+//         for (let i = 0; i < count - N; i++) {
+//             K = Math.floor(K / 10);
+//         }
+//         return K % 10;
+//     }
+// }
 
-console.log(digitNth(105782, 5)); 
-console.log(digitNth(1057, 5));  
+// console.log(digitNth(105782, 5)); 
+// console.log(digitNth(1057, 5));  
