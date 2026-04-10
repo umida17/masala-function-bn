@@ -177,30 +177,30 @@
 
 
 
-function numberOfPrime(N) {
-    let count = 0;
+// function numberOfPrime(N) {
+//     let count = 0;
 
-    for (let i = 1; i <= N; i++) {
-        let isPrime = true;
+//     for (let i = 1; i <= N; i++) {
+//         let isPrime = true;
 
-        if (i < 2) {
-            isPrime = false;
-        } else {
-            for (let j = 2; j < i; j++) {
-                if (i % j === 0) {
-                    isPrime = false;
-                }
-            }
-        }
+//         if (i < 2) {
+//             isPrime = false;
+//         } else {
+//             for (let j = 2; j < i; j++) {
+//                 if (i % j === 0) {
+//                     isPrime = false;
+//                 }
+//             }
+//         }
 
-        if (isPrime) {
-            count++;
-        }
-    }
+//         if (isPrime) {
+//             count++;
+//         }
+//     }
 
-    return count;
-}
+//     return count;
+// }
 
-console.log(numberOfPrime(10));
+// console.log(numberOfPrime(10));
 
  
