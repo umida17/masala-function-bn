@@ -292,3 +292,12 @@ function sumOddEven(N) {
             oddSum += i; // toq sonlar
         }
     }
+
+    return {
+        even: evenSum,
+        odd: oddSum
+    };
+}
+
+// misol
+console.log(sumOddEven(10));
