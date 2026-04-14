@@ -304,3 +304,4 @@
 
 
 
+function invertTime(H, M, S) {
