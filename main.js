@@ -280,4 +280,6 @@
 
 
 
-
+function sumOddEven(N) {
+    let evenSum = 0;
+    let oddSum = 0;
