@@ -329,3 +329,12 @@ function decTime(H, M, S) {
     if (H < 0) {
         H = 23;
     }
+
+
+    // format (2 xonali qilish)
+    let hh = String(H).padStart(2, '0');
+    let mm = String(M).padStart(2, '0');
+    let ss = String(S).padStart(2, '0');
+
+    return `${hh}:${mm}:${ss}`;
+}
