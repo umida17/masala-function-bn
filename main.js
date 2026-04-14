@@ -310,3 +310,22 @@
 // }
  
 // console.log(invertTime(0, 6, 40));  
+
+
+
+function decTime(H, M, S) {
+    S -= 1;
+
+    if (S < 0) {
+        S = 59;
+        M -= 1;
+    }
+
+    if (M < 0) {
+        M = 59;
+        H -= 1;
+    }
+
+    if (H < 0) {
+        H = 23;
+    }
