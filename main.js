@@ -313,28 +313,28 @@
 
 
 
-function decTime(H, M, S) {
-    S -= 1;
+// function decTime(H, M, S) {
+//     S -= 1;
 
-    if (S < 0) {
-        S = 59;
-        M -= 1;
-    }
+//     if (S < 0) {
+//         S = 59;
+//         M -= 1;
+//     }
 
-    if (M < 0) {
-        M = 59;
-        H -= 1;
-    }
+//     if (M < 0) {
+//         M = 59;
+//         H -= 1;
+//     }
 
-    if (H < 0) {
-        H = 23;
-    }
+//     if (H < 0) {
+//         H = 23;
+//     }
 
-    let hh = String(H).padStart(2, '0');
-    let mm = String(M).padStart(2, '0');
-    let ss = String(S).padStart(2, '0');
+//     let hh = String(H).padStart(2, '0');
+//     let mm = String(M).padStart(2, '0');
+//     let ss = String(S).padStart(2, '0');
 
-    return `${hh}:${mm}:${ss}`;
-}
+//     return `${hh}:${mm}:${ss}`;
+// }
  
-console.log(decTime(0, 6, 40)); 
+// console.log(decTime(0, 6, 40)); 
