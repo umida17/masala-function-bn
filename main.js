@@ -340,7 +340,7 @@
 // console.log(decTime(0, 6, 40)); 
 
 
-
+let Y = +prompt("y soni kiriting")
 
 function isLeapYear(Y) {
     return (Y % 4 === 0 && Y % 100 !== 0) || (Y % 400 === 0);
