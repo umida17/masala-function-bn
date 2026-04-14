@@ -336,5 +336,5 @@ function decTime(H, M, S) {
 
     return `${hh}:${mm}:${ss}`;
 }
-// tekshirish
-console.log(decTime(0, 6, 40)); // 00:06:39
+ 
+console.log(decTime(0, 6, 40)); 
