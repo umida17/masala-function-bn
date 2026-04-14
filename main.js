@@ -305,3 +305,5 @@
 
 
 function invertTime(H, M, S) {
+ return H * 3600 + M * 60 + S;
+}
