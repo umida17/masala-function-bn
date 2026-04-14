@@ -342,3 +342,6 @@
 
 
 
+function isLeapYear(Y) {
+    return (Y % 4 === 0 && Y % 100 !== 0) || (Y % 400 === 0);
+}
