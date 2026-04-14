@@ -345,7 +345,7 @@ let Y = +prompt("y soni kiriting")
 function isLeapYear(Y) {
     return (Y % 4 === 0 && Y % 100 !== 0) || (Y % 400 === 0);
 }
-console.log(isLeapYear(2020)); // true
-console.log(isLeapYear(2021)); // false
-console.log(isLeapYear(1900)); // false
-console.log(isLeapYear(2000)); // true
+console.log(isLeapYear(2020));  
+console.log(isLeapYear(2021));  
+console.log(isLeapYear(1900));  
+console.log(isLeapYear(2000));  
