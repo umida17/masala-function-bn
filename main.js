@@ -304,9 +304,9 @@
 
 
 
-function invertTime(H, M, S) {
+// function invertTime(H, M, S) {
 
- return H * 3600 + M * 60 + S;
-}
+//  return H * 3600 + M * 60 + S;
+// }
  
-console.log(invertTime(0, 6, 40));  
+// console.log(invertTime(0, 6, 40));  
