@@ -299,5 +299,4 @@ function sumOddEven(N) {
     };
 }
 
-// misol
-console.log(sumOddEven(10));
+ console.log(sumOddEven(10));
